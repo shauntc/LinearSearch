@@ -14,5 +14,7 @@
 
 -(void)fillArray:(int)number;
 -(int)linearSearch:(int)numberToFind;
+//-(int)linearSearch:(int)numberToFind withIndex:(int) i;
+
 
 @end

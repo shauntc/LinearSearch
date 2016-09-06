@@ -44,6 +44,28 @@
     return -1;
 }
 
+
+/*
+-(int)linearSearch:(int)numberToFind withIndex:(int) i
+{
+    if([self.array[i] intValue] == numberToFind)
+    {
+        NSLog(@"The number is at index %d", i);
+        return i;
+    }
+    else if(i>=self.array.count-1)
+    {
+        NSLog(@"The number was not found");
+        return -1;
+    }
+    else
+    {
+        i++;
+        return [self linearSearch:numberToFind withIndex:i];
+    }
+}
+ */
+
 @end
 
 
